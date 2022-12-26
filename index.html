@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is an Test page" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Challenge</title>
+    <style></style>
+    <script></script>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Where in the world?</h1>
+        <button class="mode">
+          <i class="fa-regular fa-moon"></i>
+          <span>Dark Mode</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="main-section">
+        <div class="container">
+          <form>
+            <div class="input">
+              <i class="fa fa-search"></i>
+              <input type="text" placeholder="Search for a country..." />
+            </div>
+            <div class="select">
+              <select name="region">
+                <option value="no value">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+              </select>
+            </div>
+          </form>
+          <div class="content"></div>
+        </div>
+      </section>
+      <section class="details-section">
+        <div class="container">
+          <button id="back-btn">
+            <i class="fa-solid fa-arrow-left-long"></i>
+            Back
+          </button>
+          <div class="content">
+            <img />
+            <div class="full-info">
+              <h2 id="country-name"></h2>
+              <div class="more-info">
+                <div>
+                  <p>
+                    <span>Native Name: </span><span id="native-name"></span>
+                  </p>
+                  <p><span>Population: </span><span id="population"></span></p>
+                  <p><span>Region: </span><span id="region"></span></p>
+                  <p><span>Sub Region: </span><span id="sub-region"></span></p>
+                  <p><span>Capital: </span><span id="capital"></span></p>
+                </div>
+                <div>
+                  <p>
+                    <span>Top Level Domain: </span
+                    ><span id="top-level-domain"></span>
+                  </p>
+                  <p><span>Currencies: </span><span id="currencies"></span></p>
+                  <p><span>Languages: </span><span id="languages"></span></p>
+                </div>
+              </div>
+              <div class="borders-div">
+                <span class="span-borders">Border Countries: </span>
+                <div id="border-countries"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
