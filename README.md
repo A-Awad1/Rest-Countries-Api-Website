@@ -2,16 +2,26 @@
 
 This challenge is to integrate with the [REST Countries API](https://restcountries.com) to pull country data and display it like in the designs.
 
-This is without any framework, only by HTML, CSS and JavaScript.
-This challenge is responsive in all devices.
-
 Users can:
 
 - See all countries from the API on the homepage
 - Search for a country (or part of its name) using an `input` field
 - Filter countries by region
 - Click on a country to see more detailed information on a separate page
-- Toggle the color scheme between light and dark mode _(optional)_ and the value stored in local storage
+- Toggle the color scheme between light and dark mode and the value stored in local storage
+
+This challenge is responsive in all devices and I don't use any framework.
+
+Technologies Used:
+
+- HTML
+- CSS
+- JavaScript (ECMAScript , DOM , BOM , AJAX , Api JSON)
+
+Additions under development:
+
+- Test the website by Jest
+- Use gulp plugins to help in maintenance
 
 [See Website Live](https://a-awad1.github.io/Rest-Countries-Api-Website/)
 
