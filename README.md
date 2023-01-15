@@ -13,6 +13,8 @@ Users can:
 - Click on a country to see more detailed information on a separate page
 - Toggle the color scheme between light and dark mode _(optional)_ and the value stored in local storage
 
+[See Website Live](https://a-awad1.github.io/Rest-Countries-Api-Website/)
+
 Output design Screenshots:
 
 Large Screens Home Page :
