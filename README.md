@@ -2,12 +2,12 @@
 
 **[See Website Live](https://a-awad1.github.io/Rest-Countries-Api-Website/)**
 
-This project challenge by Frontend Mentor.
+This project is advanced challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 This Website helps you to see the details of any country in the world. All data in the website fetched
 from [REST Countries API](https://restcountries.com).
 
-Features: 
+Features:
 
 - View all countries details on the home page, arranged in alphabetical order.
 - Search for a country (or part of its name) using an `input` field. And filter countries by region.
